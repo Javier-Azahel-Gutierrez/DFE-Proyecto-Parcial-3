@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  rutaImagen = '../../../../img/';
+  rutaImagen = '../../../../assets/img/';
 
 
 }
