@@ -1,4 +1,51 @@
-<p>home works!</p>
-<img src="{{rutaImagen +'Game1.png'}}"
- alt="pollo">
-<img src="" alt="">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play & Win - Bienvenido a esta locura</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-sans">
+
+    <header class="text-center py-12">
+        <h1 class="text-4xl font-bold">¡Bienvenido a Play & Win!</h1>
+        <p class="mt-4">En esta pagina vera todo tipo de interes/noticias de videojuegos</p>
+    </header>
+
+    <section class="container mx-auto text-center">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Sección 1 -->
+            <div class="p-6 bg-opacity-75 bg-white rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-blue-500 mb-4">Noticias Nuevos Juegos</h2>
+                <p class="text-gray-700">PROXIMAMENTE explora nuestra amplia selección de juegos de diferentes géneros y plataformas.</p>
+            </div>
+
+            <!-- Sección 2 -->
+            <div class="p-6 bg-opacity-75 bg-white rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-blue-500 mb-4">Participa en Torneos</h2>
+                <p class="text-gray-700">PROXIMAMENTE Compite contra jugadores de todo el mundo en emocionantes torneos y demuestra tus habilidades.</p>
+            </div>
+
+            <!-- Sección 3 -->
+            <div class="p-6 bg-opacity-75 bg-white rounded-lg shadow-md">
+                <h2 class="text-xl font-semibold text-blue-500 mb-4">Enterate de la recomendacion del momento</h2>
+                <p class="text-gray-700">Cada ceirto tiempo te mostraremos un juego que veamos digno de recomendar asi que no se te olvide hehcarle un ojo ;)</p>
+            </div>
+        </div>
+
+        <!-- Juego de la Semana -->
+        <div class="mt-12 p-8 bg-opacity-75 bg-white rounded-lg shadow-md">
+            <h2 class="text-2xl font-semibold text-blue-500 mb-4">Juego del momento</h2>
+            <p class="text-gray-700">Descubre nuestro juego destacado del momento y sumérgete en una experiencia única.</p> <br>
+            <img src="{{ rutaImagen + 'Game1.png' }}" alt="Juego del momento" class="mx-auto w-auto h-240 object-cover mb-4 rounded-md">
+            <a href="#" class="mt-2 inline-block text-blue-500 underline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus quia mollitia saepe maiores veniam suscipit nulla! Alias, voluptates beatae! Ipsum quod earum labore eum similique nobis quae alias magni.</a>
+        </div>
+    </section>
+
+    <footer class="text-center mt-12">
+        <p>&copy; Javier Azahel Gutiérrez Munguía - 219209037.</p>
+    </footer>
+
+</body>
+</html>
